@@ -1,7 +1,11 @@
+from statistics import mode
+
 def most_common_value(number_list):
     """ returns the most common element of the list
     """
-    pass
+    result = mode(number_list)
+    # print(result)
+    return result
 
 
 if __name__ == "__main__":
